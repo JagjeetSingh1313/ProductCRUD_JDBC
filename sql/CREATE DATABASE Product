@@ -1,0 +1,12 @@
+CREATE DATABASE ProductDB;
+
+USE ProductDB;
+
+CREATE TABLE Product (
+    ProductID INT PRIMARY KEY AUTO_INCREMENT,
+    ProductName VARCHAR(255) NOT NULL,
+    Price DOUBLE NOT NULL,
+    Quantity INT NOT NULL
+);
+
+
